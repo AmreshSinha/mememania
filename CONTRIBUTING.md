@@ -49,7 +49,7 @@ If you go to your repository on GitHub, you'll see a `Compare & pull request` bu
 6. Start a Pull Request
 Now submit the pull request and click on `Create pull request`.
 7. Get a code review approval/reject
-8. After approval, merge your PR
+8. After approval, maintainers will merge your PR
 9. GitHub will automatically delete the branch after the merge is done. (they can still be restored).
 
 ## Security & Privacy
