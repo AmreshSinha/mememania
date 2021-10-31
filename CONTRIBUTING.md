@@ -68,6 +68,4 @@ We would 💖 you to contribute to Mememania, but we would also like to make sur
 
 For us to find the right balance, please **open an issue** explaining your ideas before introducing a new pull request.
 
-This will allow the Mememania community to have sufficient discussion about the new feature value and how it fits in the product roadmap and vision.
-
-See Ya!
+This will allow the Mememania community to have sufficient discussion before starting work on the idea.
