@@ -74,9 +74,6 @@ This will allow the Mememania community to have sufficient discussion about the 
 
 Pull requests are great, but there are many other areas where you can help Mememania. 
 
-- Blogging & Speaking
-- Presenting at Meetups
 - Sending Feedbacks & Reporting Bugs
 - Submitting New Ideas
 - Improving Documentation
-- Helping Someone in need
