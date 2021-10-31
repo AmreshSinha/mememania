@@ -69,3 +69,11 @@ We would 💖 you to contribute to Mememania, but we would also like to make sur
 For us to find the right balance, please **open an issue** explaining your ideas before introducing a new pull request.
 
 This will allow the Mememania community to have sufficient discussion before starting work on the idea.
+
+## Other Ways to Help
+
+Pull requests are great, but there are many other areas where you can help Mememania. 
+
+- Sending Feedbacks & Reporting Bugs
+- Submitting New Ideas
+- Improving Documentation
