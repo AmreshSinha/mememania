@@ -1,4 +1,4 @@
-# Code of Conduct
+# Mememania's Code of Conduct
 
 ## Our Pledge
 
