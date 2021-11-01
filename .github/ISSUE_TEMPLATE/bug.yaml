@@ -1,0 +1,84 @@
+name: "🐛 Bug Report"
+description: "Create a bug report to help us improve"
+title: "🐛 Bug Report: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting an Bug 🙏.
+        This issue tracker is for bugs and issues found within Mememania core.
+  - type: textarea
+    id: steps-to-reproduce
+    validations:
+      required: true
+    attributes:
+      label: "👟 Reproduction steps"
+      description: "How do you trigger this bug? Please provide all the steps to reproduce."
+      placeholder: "When I ..."
+  - type: textarea
+    id: expected-behavior
+    validations:
+      required: true
+    attributes:
+      label: "👍 Expected behavior"
+      description: "What did you think would happen?"
+      placeholder: "It should ..."
+  - type: textarea
+    id: actual-behavior
+    validations:
+      required: true
+    attributes:
+      label: "👎 Actual Behavior"
+      description: "If possible please provide textual output as well as screenshots."
+      placeholder: "It actually ..."
+  - type: dropdown
+    id: appwrite-version
+    attributes:
+      label: "🧐 Mememania Release"
+      description: "What release of Mememania are you running?"
+      options:
+        - Version 0.x.x
+        - Different version (specify in environment)
+    validations:
+      required: true
+  - type: dropdown
+    id: operating-system
+    attributes:
+      label: "💻 Operating system"
+      description: "What OS is your server / device running on?"
+      options:
+        - Linux
+        - MacOS
+        - Windows
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    validations:
+      required: false
+    attributes:
+      label: "🧱 Your Environment"
+      description: "Is your environment customized in any way?"
+      placeholder: "I use Cloudflare for ..."
+  - type: checkboxes
+    id: no-duplicate-issues
+    attributes:
+      label: "👀 Have you spent some time to check if this issue has been raised before?"
+      description: "Have you Googled for a similar issue or checked our older issues for a similar bug?"
+      options:
+        - label: "I checked and didn't find similar issue"
+          required: true
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: "📎 Additional Information"
+      description: "Tell us anything else you think we should know."
+  - type: checkboxes
+    id: read-code-of-conduct
+    attributes:
+      label: "🏢 Have you read the Code of Conduct?"
+      options:
+        - label: "I have read the [Code of Conduct](https://github.com/mememania-org/mememania/blob/HEAD/CODE_OF_CONDUCT.md)"
+          required: true

@@ -1,0 +1,61 @@
+name: "🚀 Feature Request"
+description: "Create a feature request to discuss about new feature addition"
+title: "🚀 Feature Request: "
+labels: [feature]
+body:
+  - type: markdown
+    attributes: 
+      value: |
+        Thank you for filling a feature request 😊.
+        This issue tracker is for feature request in Mememania core.
+  - type: textarea
+    id: feature-related-to-problem
+    validations:
+      required: true
+    attributes:
+      label: "🤔 Feature related to a Problem?"
+      description: "Is this feature related to a problem? Please describe the problem you are trying to solve."
+      placeholder: "I am ..."
+  - type: textarea
+    id: other-feature-request
+    validations:
+      required: false
+    attributes:
+      label: "😁 Do you have a feature request which is not because of a problem?"
+      description: "If you have a feature request which is not because of a problem please describe."
+      placeholder: "You should add ..."
+  - type: textarea
+    id: pitch
+    validations:
+      required: false
+    attributes:
+      label: "🎤 Pitch"
+      description: "Please explain about the feature in a concise and clear way."
+      placeholder: "It should ..."
+  - type: textarea
+    id: solution
+    attributes:
+      label: "🥳 Solution"
+      description: "Please describe the desired behaviour you want."
+      placeholder: "I think ..."
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "🙃 Any Alternatives?"
+      description: "Is there any alternatives you think?"
+      placeholder: "I think ..."
+  - type: checkboxes
+    id: no-duplicate-issues
+    attributes:
+      label: "👀 Have you spent some time to check if this issue has been raised before?"
+      description: "Have you Googled for a similar issue or checked our older issues for a similar bug?"
+      options:
+        - label: "I checked and didn't find similar issue"
+          required: true
+  - type: checkboxes
+    id: read-code-of-conduct
+    attributes:
+      label: "🏢 Have you read the Code of Conduct?"
+      options:
+        - label: "I have read the [Code of Conduct](https://github.com/mememania-org/mememania/blob/HEAD/CODE_OF_CONDUCT.md)"
+          required: true
